@@ -4,25 +4,39 @@
 <head>
     <title>Sir Tim-berners lee</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 
 <body>
-    <center>
-    <ul class="menus">
-        <li class="links"><a href="#welcome">HOME</a></li>
-        <li class="links"><a href="#videos">MY VIDEOS</a></li>
-        <li class="links"><a href="#work">WORK CARRER</a></li>
-        <li class="links"><a href="#writings">WRITINGS</a></li>
-        <li class="links"><a href="#contact">CONTACt</a></li>
-    </ul>
-    </center>
+    <nav class="navbar-inverse my_nav_bar">
+        <div class="navbar-header">
+            <button class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Ayaansh Gulati</a>
+        </div>
+        <div class="collapse navbar-collapse" id="mynavbar">
 
-    <section id="welcome" class="parallax-container">
+            <ul class="nav navbar-nav">
+                <li class="links"><a href="#welcome">HOME</a></li>
+                <li class="links"><a href="#videos">MY VIDEOS</a></li>
+                <li class="links"><a href="#work">WORK CARRER</a></li>
+                <li class="links"><a href="#writings">WRITINGS</a></li>
+                <li class="links"><a href="#contact">CONTACt</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="welcome" class="parallax-container"> 
         <div class="parallax-inner">
-            <img src="tbl.jpeg" class="profile">
+            <img src="tbl.jpeg" class="profile img-circle">
             <h1>I am <br> <span id="name">Tim-berners lee</span></h1>
             <h2>I am the founder of www: world-wide web</h2>
         </div>
@@ -60,7 +74,7 @@
     </section>
     <section id="contact">
         <iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d65324506.17493128!2d-85.29494946055266!3d2.118452556842763!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d42.3005!2d-83.5389993!4m5!1s0x39e854a215bd9ebd%3A0x576dcf806abbab2!2smount%20everest!3m2!1d27.9881206!2d86.9249751!5e0!3m2!1sen!2sus!4v1622682953976!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        <div class="contact_1">
+        <div class="contact_1 col-lg-6 col-md-6 col-sm-6 col-xs-12">
             <a href="mailto:gulatin2@gmail.com?Subject=hello">
                 <i class="fa fa-envelope">
 
@@ -75,4 +89,6 @@
             </a>
         </div>
     </section>
-</body></html>
+</body>
+
+</html>
